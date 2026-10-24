@@ -1,0 +1,46 @@
+{
+  "query": {
+    "address": "123 Main St, Austin, TX 78704",
+    "normalized_address": "123 main st austin tx 78704"
+  },
+  "subject": {
+    "id": "demo-100",
+    "source": "synthetic-demo-fallback",
+    "source_url": null,
+    "operation": "buy",
+    "address": {
+      "street": "123 Main St",
+      "city": "Austin",
+      "state": "TX",
+      "postal_code": "78704",
+      "formatted": "123 Main St, Austin, TX 78704"
+    },
+    "latitude": 30.2501,
+    "longitude": -97.7501,
+    "status": "demo",
+    "price": 600000,
+    "price_per_sqft": 400,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "living_area_sqft": 1500,
+    "property_type": "SINGLE_FAMILY",
+    "days_on_market": 12,
+    "rent_estimate": 3200,
+    "photos": []
+  },
+  "active_comps": [],
+  "sold_comps": [],
+  "rental_comps": [],
+  "market_summary": {
+    "label": "synthetic demo fallback — live market data unavailable",
+    "active": {"comparable_count": 0},
+    "sold": {"comparable_count": 0},
+    "rentals": {"comparable_count": 0},
+    "subject_comparison": {}
+  },
+  "sources": [{"provider": "synthetic demo fallback"}],
+  "retrieved_at": null,
+  "expires_at": null,
+  "warnings": ["Synthetic fallback data; do not present as a live property record."],
+  "unavailable_sections": ["active_comps", "sold_comps", "rental_comps"]
+}

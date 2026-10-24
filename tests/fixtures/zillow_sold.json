@@ -1,0 +1,47 @@
+[
+  {
+    "zpid": 201,
+    "address": {"streetAddress": "120 Oak St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "location": {"latitude": 30.249, "longitude": -97.749},
+    "soldPrice": 550000,
+    "soldDate": "2026-06-15",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 1400,
+    "homeType": "SINGLE_FAMILY",
+    "daysOnZillow": 24
+  },
+  {
+    "zpid": 202,
+    "address": {"streetAddress": "140 Oak St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "location": {"latitude": 30.248, "longitude": -97.748},
+    "soldPrice": 590000,
+    "soldDate": "2026-08-20",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "livingArea": 1500,
+    "homeType": "SINGLE_FAMILY",
+    "daysOnZillow": 18
+  },
+  {
+    "zpid": 203,
+    "address": {"streetAddress": "160 Oak St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "soldPrice": 570000,
+    "soldDate": "2026-07-10",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 1600,
+    "homeType": "SINGLE_FAMILY",
+    "daysOnZillow": 30
+  },
+  {
+    "zpid": 204,
+    "address": {"streetAddress": "180 Oak St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "soldPrice": 500000,
+    "soldDate": "2024-01-10",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 1500,
+    "homeType": "SINGLE_FAMILY"
+  }
+]

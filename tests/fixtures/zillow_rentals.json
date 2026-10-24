@@ -1,0 +1,29 @@
+[
+  {
+    "zpid": 301,
+    "address": {"streetAddress": "110 Pine St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "baseRent": 3000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 1450,
+    "homeType": "SINGLE_FAMILY"
+  },
+  {
+    "zpid": 302,
+    "address": {"streetAddress": "130 Pine St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "baseRent": 3200,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 1500,
+    "homeType": "SINGLE_FAMILY"
+  },
+  {
+    "zpid": 303,
+    "address": {"streetAddress": "150 Pine St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "baseRent": 3400,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "livingArea": 1700,
+    "homeType": "SINGLE_FAMILY"
+  }
+]

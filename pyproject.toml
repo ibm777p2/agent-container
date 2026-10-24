@@ -1,0 +1,41 @@
+[project]
+name = "agent-container"
+version = "0.1.0"
+description = "Property research agent (LangGraph + OpenRouter) as a container or a Vercel function"
+readme = "README.md"
+authors = [
+    { name = "elg0nz", email = "elg0nz@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ag-ui-langgraph[fastapi]>=0.0.45",
+    "beautifulsoup4>=4.15.0",
+    "fastapi>=0.118.0",
+    "langchain>=1.4.2",
+    "langchain-core>=1.6.5",
+    "langchain-openai>=1.6.6",
+    "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.2.12",
+    "numpy>=2.5.3",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "uvicorn>=0.37.0",
+]
+
+[project.scripts]
+pi-ingest = "property_intelligence_rag.ingest:main"
+pi-ask = "property_intelligence_rag.cli:main"
+pi-serve = "property_intelligence_rag.server:main"
+
+[build-system]
+requires = ["uv_build>=0.11.23,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "property_intelligence_rag"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]

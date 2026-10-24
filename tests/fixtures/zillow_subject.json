@@ -1,0 +1,29 @@
+[
+  {
+    "zpid": 100,
+    "url": "https://www.zillow.com/homedetails/100_zpid/",
+    "address": {
+      "streetAddress": "123 Main St",
+      "city": "Austin",
+      "state": "TX",
+      "zipcode": "78704"
+    },
+    "location": {"latitude": 30.2501, "longitude": -97.7501},
+    "price": {"value": 600000, "pricePerSquareFoot": 400},
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 1500,
+    "yearBuilt": 1985,
+    "homeType": "SINGLE_FAMILY",
+    "daysOnZillow": 12,
+    "estimates": {"zestimate": 610000, "rentZestimate": 3200},
+    "media": {"allPropertyPhotos": {"highResolution": ["https://example.com/subject.jpg"]}},
+    "_details": {
+      "description": "Three bedroom test property.",
+      "parcelId": "TEST-PARCEL-100",
+      "resoFacts": {"hoaFee": 0, "lotSize": 6500},
+      "priceHistory": [{"date": "2026-09-01", "price": 600000}],
+      "taxHistory": [{"time": 2025, "taxPaid": 9000}]
+    }
+  }
+]

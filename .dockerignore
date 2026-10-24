@@ -1,0 +1,12 @@
+.venv/
+.env
+.git/
+.pytest_cache/
+**/__pycache__/
+data/index/
+data/*.sqlite3
+tests/
+*.pyc
+.dockerignore
+.vercelignore
+vercel.json

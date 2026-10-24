@@ -1,0 +1,42 @@
+[
+  {
+    "zpid": 101,
+    "address": {"streetAddress": "125 Main St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "location": {"latitude": 30.251, "longitude": -97.751},
+    "price": {"value": 575000},
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 1450,
+    "homeType": "SINGLE_FAMILY",
+    "daysOnZillow": 20
+  },
+  {
+    "zpid": 102,
+    "address": {"streetAddress": "130 Main St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "location": {"latitude": 30.252, "longitude": -97.752},
+    "price": {"value": 625000},
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "livingArea": 1700,
+    "homeType": "SINGLE_FAMILY",
+    "daysOnZillow": 10
+  },
+  {
+    "zpid": 103,
+    "address": {"streetAddress": "200 Main St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "price": {"value": 400000},
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 1500,
+    "homeType": "CONDO"
+  },
+  {
+    "zpid": 104,
+    "address": {"streetAddress": "300 Main St", "city": "Austin", "state": "TX", "zipcode": "78704"},
+    "price": {"value": 900000},
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "livingArea": 2500,
+    "homeType": "SINGLE_FAMILY"
+  }
+]

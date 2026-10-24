@@ -1,0 +1,9 @@
+.venv/
+.env
+.pytest_cache/
+**/__pycache__/
+data/index/
+data/*.sqlite3
+tests/
+Dockerfile
+.dockerignore
